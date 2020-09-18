@@ -63,11 +63,11 @@ class HigherLowerActivity : AppCompatActivity() {
         else AnswerIncorrect()
     }
     private fun AnswerIncorrect() {
-        Toast.makeText(this, getString(R.string.Correct), Toast.LENGTH_LONG).show()
+        Toast.makeText(this, getString(R.string.Incorrect), Toast.LENGTH_LONG).show()
     }
 
     private fun AnswerCorrect() {
-        Toast.makeText(this, getString(R.string.Incorrect), Toast.LENGTH_LONG).show()
+        Toast.makeText(this, getString(R.string.Correct), Toast.LENGTH_LONG).show()
     }
 
 
