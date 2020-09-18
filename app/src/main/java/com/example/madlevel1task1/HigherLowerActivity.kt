@@ -59,7 +59,7 @@ class HigherLowerActivity : AppCompatActivity() {
 
     private fun onLowerClick() {
         rollDice()
-        if (currentThrow > lastThrow) AnswerCorrect()
+        if (currentThrow < lastThrow) AnswerCorrect()
         else AnswerIncorrect()
     }
     private fun AnswerIncorrect() {
